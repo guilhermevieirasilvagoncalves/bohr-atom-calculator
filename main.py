@@ -78,8 +78,7 @@ while True:
             Ef = deltaE + Ei
             n = sqrt(-13.6 / Ef)
             print("""
-                nf = {0} 
-            """.format(np.format_float_scientific(n, precision = 2, exp_digits = 1)))
+                nf = {0} """.format(np.format_float_scientific(n, precision = 2, exp_digits = 1)))
 
         if N == 2:
             ni = int(input("Valor do n inicial: "))
